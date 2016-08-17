@@ -16,5 +16,19 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
-  }]
+  }],
+  "cities": [{
+    "name": "Portland",
+    "country": "USA"
+    }, {
+    "name": "Seattle",
+    "country": "USA"
+    }],
+  "announcements": [{
+    "title": "HURRICANE!!!!!!!!!!!!!!!!!!!!",
+    "description": "Run for your lives!!!! It's a hurricane!!!!!!!! A hurricane named Sami Al-Jamal!!!!!!!"
+    }, {
+    "title": "Brunch with Obama",
+    "description": "From 8/19-8/24, Obama will be brunching with all Super Rental users who rent a property in San Francisco."
+    }]
 }
