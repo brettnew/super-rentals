@@ -1,0 +1,6 @@
+<h4>{{city.country}}</h4>
+{{#each city.rentals as |rental|}}
+  {{rental-tile rental=rental}}
+{{/each}}
+
+<button {{action 'destroyCity' city}}>Delete {{city.name}}</button>
