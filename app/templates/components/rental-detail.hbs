@@ -6,3 +6,7 @@ Located in {{rental.city.name}}, this {{rental.bedrooms}} bedrrom {{rental.type}
 <button {{action 'delete' rental}}>Delete</button>
 <br>
 {{#link-to 'index'}}Home{{/link-to}}
+<div>
+  <h3>Map of {{rental.owner}}'s {{rental.type}}</h3>
+  {{google-map rental=rental}}
+</div>
